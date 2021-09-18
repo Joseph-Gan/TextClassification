@@ -15,24 +15,24 @@ Our company cares more on predicting worldnews (target) and have low false posit
 
 Hence we will be using PR-AUC for our evaluation metrics
 
-#Pre Processing
+# Pre Processing
 We have investigated pre-processing using 3 methods as below:-
 Count Vectorizer
 TFIDF Vectorizer
 Word2Vec
 
-#Model Fitting
+# Model Fitting
 We have fitted 3 models
 -Random Forest
 -Logistic Regression
 -Naive Bayes (Gaussian & Multinomial)
 
-#Conclusion & Future Recommendation
+# Conclusion & Future Recommendation
 We selected the Naive Bayes Model with word2vec pre-processing as  the best performing model where it has F0.5 scores of 0.96. We have achieve a metric score significantly higher than our baseline 0.46, and based on the model interpretation we are confidence that it will generalize.
 
 In future, we can add Topic modelling to generate insights of what are the subject being discussed in both subreddits.
 
-## Content
+# Content
 - [Data Description](#Data-Description)
 - [Evaluation Metric](#Evaluation-Metric)
 - [Executive Summary](#Executive-Summary)
